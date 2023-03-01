@@ -19,7 +19,7 @@ public class Consumer {
 	@Autowired
 	private EstoqueRepository estoqueRepository;
 
-	@RabbitListener(queues = { "springboot.boaglio.queue" })
+	@RabbitListener(queues = { "springboot.gomes.queue" })
 	public void receiveMessage(@Payload Estoque mensagem) {
 
 		System.out.println("Recebido via fila: <" + mensagem + ">");
