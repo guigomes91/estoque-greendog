@@ -19,11 +19,11 @@ public class RabbitmqConfig {
 
  	private static final String RECEIVE_MESSAGE = "receiveMessage";
 
-	public static final String EXCHANGE_NAME = "springboot.boaglio.exchange";
+	public static final String EXCHANGE_NAME = "springboot.gomes.exchange";
 
-	public static final String QUEUE_NAME = "springboot.boaglio.queue";
+	public static final String QUEUE_NAME = "springboot.gomes.queue";
 
-	public static final String ROUTING_KEY = "springboot.boaglio.#";
+	public static final String ROUTING_KEY = "springboot.gomes.#";
 
 	@Bean
 	Queue queue() {
